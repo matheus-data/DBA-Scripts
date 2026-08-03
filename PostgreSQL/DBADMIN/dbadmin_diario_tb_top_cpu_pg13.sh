@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# PostgreSQL 13
 # Objetivo: Esse script acessa o arquivo .servers, pega cada um dos servidores registrados nele e
 #  e popula as tabelas do banco de dados dbadmin (tb_db_size e tb_top_cpu)
 #  Efetua o expurgo ao final onde a coluna dt_log for menor que 30 dias
