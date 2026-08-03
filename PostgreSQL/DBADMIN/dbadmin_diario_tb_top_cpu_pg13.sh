@@ -5,7 +5,7 @@
 #  Efetua o expurgo ao final onde a coluna dt_log for menor que 30 dias
 #  Execução diária uma vez ao dia
 # Criador:      Matheus Rossi
-#
+# PostgreSQL 13
 
 export PGPORT=5432
 export SERVERS="/root/postgresql/host/.servers"
